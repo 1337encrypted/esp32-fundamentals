@@ -98,11 +98,6 @@ The workflow is divided into 4 steps
   idf.py set-target esp32
   ```
 
-  - Generate **sdkconfig** file
-
-  ```
-  idf.py menuconfig
-  ```
   - After configuring the project there are 2 new components added to the file structure
   1. The **build** directory
   2. The **sdkconfig** file which stores all the configuration values
@@ -116,7 +111,11 @@ The workflow is divided into 4 steps
   - sdkconfig
 
   ```
-  
+   - Generate **sdkconfig** file
+
+  ```
+  idf.py menuconfig
+  ```
 
 ### 2. Build
 

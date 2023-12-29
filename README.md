@@ -125,6 +125,12 @@ The workflow is divided into 4 steps
   ```
   idf.py all
   ```
+
+  Note: To clean the build folder user. This is optional
+
+  ```
+  idf.py fullclean
+  ```
   
   - The build system compiles all source files of all components 
   - But on repeated build it will compile on the source files which have been changed, so build speed increases

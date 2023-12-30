@@ -2,13 +2,13 @@
 
 Multitasking?
 
-<img width="1039" alt="image" src="https://github.com/1337encrypted/esp32-fundamentals/assets/46808309/2bc2297b-2c9e-48fd-ae9d-ce44bb549f0f">
+<img width="500" alt="image" src="https://github.com/1337encrypted/esp32-fundamentals/assets/46808309/2bc2297b-2c9e-48fd-ae9d-ce44bb549f0f">
 
 The CPU is capable of performing only one task at a time, in multitaking we switch between tasks rapidly which gives us the illusion that all the tasks are been executed simultaneously in parallel.
 
 Symmetric multi-processing
 
-<img width="1039" alt="image" src="https://github.com/1337encrypted/esp32-fundamentals/assets/46808309/1539a8fd-cc91-4743-acc6-402bb928e763">
+<img width="500" alt="image" src="https://github.com/1337encrypted/esp32-fundamentals/assets/46808309/1539a8fd-cc91-4743-acc6-402bb928e763">
 
 A multi-core system where each CPU has access to the same memory bus
 In context with multasking, different tasks can run on both CPU's and if the CPU can switch between the task fast enough then it gives an illusion that all the tasks are running in parallel.
@@ -29,7 +29,7 @@ In context with multasking, different tasks can run on both CPU's and if the CPU
 
 ## Tasks
 
-<img width="564" alt="image" src="https://github.com/1337encrypted/esp32-fundamentals/assets/46808309/752ed2ab-820c-4ad5-a8a8-f2b37cbdd3ba">
+<img width="500" alt="image" src="https://github.com/1337encrypted/esp32-fundamentals/assets/46808309/752ed2ab-820c-4ad5-a8a8-f2b37cbdd3ba">
 
 Tasks are implemented as functions and within each task there is an infite loop
 
@@ -55,13 +55,13 @@ Tasks can be in either on of these states
 
 1. Vanilla FreeRTOS
 
-<img width="1054" alt="image" src="https://github.com/1337encrypted/esp32-fundamentals/assets/46808309/d703f822-b0b9-44bc-9cd8-f2a4c2898960">
+<img width="500" alt="image" src="https://github.com/1337encrypted/esp32-fundamentals/assets/46808309/d703f822-b0b9-44bc-9cd8-f2a4c2898960">
 
 CPU chooses one task from ready tasks
 
 2. IDF SMP
 
-<img width="1054" alt="image" src="https://github.com/1337encrypted/esp32-fundamentals/assets/46808309/d873767a-3931-4af1-b65a-72dae037114a">
+<img width="500" alt="image" src="https://github.com/1337encrypted/esp32-fundamentals/assets/46808309/d873767a-3931-4af1-b65a-72dae037114a">
 
 Both CPU choose one task to execute from the available ready tasks
 A task cannot be run by two CPU at any given point of time.

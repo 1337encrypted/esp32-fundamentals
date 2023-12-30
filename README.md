@@ -16,7 +16,7 @@
 chmod +x install_script.sh
 ```
 
-**Run the script passing the latest idf version as the first argument**
+**Run the script passing the latest idf version as the first argument as shown**
 
 ```
 ./install_script.sh v5.1.2

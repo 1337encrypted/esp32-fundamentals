@@ -50,5 +50,5 @@ fi
 source "$BASH_ALIASES"
 
 # Run idf.py with the help option
-echo "Successfull installed idf, you can not run idf.py -help" 
-
+echo "run get_idf for in every new session to activate the esp-idf"
+echo "Then run idf.py -help to use the idf" 

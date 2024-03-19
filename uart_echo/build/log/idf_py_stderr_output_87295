@@ -1,0 +1,101 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/cu.usbserial-0001 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+0x400d5764: HardwareUart::sendData() at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:49
+0x400d57c9: HardwareUart::echo_task(void*) at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:68
+0x40087065: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+0x400d5764: HardwareUart::sendData() at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:49
+0x400d57c9: HardwareUart::echo_task(void*) at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:68
+0x40087065: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+0x400d5764: HardwareUart::sendData() at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:49
+0x400d57c9: HardwareUart::echo_task(void*) at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:68
+0x40087065: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+0x400d5764: HardwareUart::sendData() at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:49
+0x400d57c9: HardwareUart::echo_task(void*) at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:68
+0x40087065: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+0x400d5764: HardwareUart::sendData() at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:49
+0x400d57c9: HardwareUart::echo_task(void*) at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:68
+0x40087065: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+0x400d5764: HardwareUart::sendData() at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:49
+0x400d57c9: HardwareUart::echo_task(void*) at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:68
+0x40087065: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+0x400d5764: HardwareUart::sendData() at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:49
+0x400d57c9: HardwareUart::echo_task(void*) at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:68
+0x40087065: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+0x400d5764: HardwareUart::sendData() at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:49
+0x400d57c9: HardwareUart::echo_task(void*) at /Users/shady/esp/projects/uart_echo/main/uart_echo_example_main.cpp:68
+0x40087065: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

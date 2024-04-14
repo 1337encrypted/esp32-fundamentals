@@ -1,0 +1,41 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/cu.usbserial-0001 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40084406: esp_crosscore_isr at /Users/shady/esp/esp-idf/components/esp_system/crosscore_int.c:103
+0x40083061: _xt_lowint1 at /Users/shady/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d4f25: uart_tx_char at /Users/shady/esp/esp-idf/components/vfs/vfs_uart.c:163
+0x400d56ef: uart_write at /Users/shady/esp/esp-idf/components/vfs/vfs_uart.c:218
+0x400d4563: console_write at /Users/shady/esp/esp-idf/components/vfs/vfs_console.c:73 (discriminator 1)
+0x400d40ee: esp_vfs_write at /Users/shady/esp/esp-idf/components/vfs/vfs.c:482 (discriminator 4)
+0x4000bd83: _write_r in ROM
+0x4000117d: __swrite in ROM
+0x400592fe: __sflush_r in ROM
+0x4005937a: _fflush_r in ROM
+0x400daf19: __sfvwrite_r at /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x400dee53: __sprint_r at /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x400de816: _vfprintf_r at /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774 (discriminator 1)
+0x400dafc1: vprintf at /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c:34
+0x400e6561: esp_log_writev at /Users/shady/esp/esp-idf/components/log/log.c:215
+0x4008bfa5: esp_log_write at /Users/shady/esp/esp-idf/components/log/log.c:225
+0x400d58fd: HardwareUart::receiveData() at /Users/shady/Desktop/esp32-fundamentals/uart_echo/main/uart.cpp:88 (discriminator 1)
+0x400d5926: HardwareUart::uartTask(void*) at /Users/shady/Desktop/esp32-fundamentals/uart_echo/main/uart.cpp:102 (discriminator 1)
+0x40087065: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d96a5: find_entry_from_task_handle_and_check_all_reset at /Users/shady/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:156
+[0m
+[0;33m0x40082de0: _xt_user_exit at /Users/shady/esp/esp-idf/components/xtensa/xtensa_vectors.S:833
+[0m
+[0;33m0x40082dec: _xt_user_exit at /Users/shady/esp/esp-idf/components/xtensa/xtensa_vectors.S:838
+[0m
+[0;33m0x400d96a2: find_entry_from_task_handle_and_check_all_reset at /Users/shady/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:154
+0x400d9b31: esp_task_wdt_reset at /Users/shady/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:712
+0x400d9b7f: idle_hook_cb at /Users/shady/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:468
+0x400d20a1: esp_vApplicationIdleHook at /Users/shady/esp/esp-idf/components/esp_system/freertos_hooks.c:47 (discriminator 1)
+0x40087e56: prvIdleTask at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+0x40087065: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

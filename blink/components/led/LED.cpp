@@ -17,12 +17,12 @@ ledPin(ledPin)
         ESP_LOGI("LED Setup", "Led pin set to GPIO_NUM_NC");
     }
 
-    xBlinkHandle = NULL;
+    xBlinkHandle = nullptr;
 }
 
 void LED::begin(const BaseType_t app_cpu) {
 
-        if (xBlinkHandle == NULL) {
+        if (xBlinkHandle == nullptr) {
             BaseType_t result = xTaskCreatePinnedToCore(
                 blinkTask,          //Task
                 "BlinkTask",        //Task name
@@ -60,8 +60,9 @@ void LED::toggle() {
 
 // Definition of blinkTask
 void LED::blinkTask(void *pvParameters) {
+    LED *instance = static_cast<LED*>(pvParameters)
     while (1) {
-        static_cast<LED*>(pvParameters)->toggle();
+        instance->toggle();
         vTaskDelay(1000 / portTICK_PERIOD_MS);  // Wait for 1000 milliseconds
     }
 }

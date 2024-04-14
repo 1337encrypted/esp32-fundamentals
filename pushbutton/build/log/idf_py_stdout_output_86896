@@ -1,0 +1,74 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "main" version: 6d06eae-dirty
+-- Adding linker script /Users/shady/Desktop/esp32-fundamentals/pushbutton/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/shady/esp/esp-idf/components/app_trace /Users/shady/esp/esp-idf/components/app_update /Users/shady/esp/esp-idf/components/bootloader /Users/shady/esp/esp-idf/components/bootloader_support /Users/shady/esp/esp-idf/components/bt /Users/shady/esp/esp-idf/components/cmock /Users/shady/esp/esp-idf/components/console /Users/shady/esp/esp-idf/components/cxx /Users/shady/esp/esp-idf/components/driver /Users/shady/esp/esp-idf/components/efuse /Users/shady/esp/esp-idf/components/esp-tls /Users/shady/esp/esp-idf/components/esp_adc /Users/shady/esp/esp-idf/components/esp_app_format /Users/shady/esp/esp-idf/components/esp_bootloader_format /Users/shady/esp/esp-idf/components/esp_coex /Users/shady/esp/esp-idf/components/esp_common /Users/shady/esp/esp-idf/components/esp_eth /Users/shady/esp/esp-idf/components/esp_event /Users/shady/esp/esp-idf/components/esp_gdbstub /Users/shady/esp/esp-idf/components/esp_hid /Users/shady/esp/esp-idf/components/esp_http_client /Users/shady/esp/esp-idf/components/esp_http_server /Users/shady/esp/esp-idf/components/esp_https_ota /Users/shady/esp/esp-idf/components/esp_https_server /Users/shady/esp/esp-idf/components/esp_hw_support /Users/shady/esp/esp-idf/components/esp_lcd /Users/shady/esp/esp-idf/components/esp_local_ctrl /Users/shady/esp/esp-idf/components/esp_mm /Users/shady/esp/esp-idf/components/esp_netif /Users/shady/esp/esp-idf/components/esp_netif_stack /Users/shady/esp/esp-idf/components/esp_partition /Users/shady/esp/esp-idf/components/esp_phy /Users/shady/esp/esp-idf/components/esp_pm /Users/shady/esp/esp-idf/components/esp_psram /Users/shady/esp/esp-idf/components/esp_ringbuf /Users/shady/esp/esp-idf/components/esp_rom /Users/shady/esp/esp-idf/components/esp_system /Users/shady/esp/esp-idf/components/esp_timer /Users/shady/esp/esp-idf/components/esp_wifi /Users/shady/esp/esp-idf/components/espcoredump /Users/shady/esp/esp-idf/components/esptool_py /Users/shady/esp/esp-idf/components/fatfs /Users/shady/esp/esp-idf/components/freertos /Users/shady/esp/esp-idf/components/hal /Users/shady/esp/esp-idf/components/heap /Users/shady/esp/esp-idf/components/http_parser /Users/shady/esp/esp-idf/components/idf_test /Users/shady/esp/esp-idf/components/ieee802154 /Users/shady/esp/esp-idf/components/json /Users/shady/esp/esp-idf/components/log /Users/shady/esp/esp-idf/components/lwip /Users/shady/Desktop/esp32-fundamentals/pushbutton/main /Users/shady/esp/esp-idf/components/mbedtls /Users/shady/esp/esp-idf/components/mqtt /Users/shady/esp/esp-idf/components/newlib /Users/shady/esp/esp-idf/components/nvs_flash /Users/shady/esp/esp-idf/components/nvs_sec_provider /Users/shady/esp/esp-idf/components/openthread /Users/shady/esp/esp-idf/components/partition_table /Users/shady/esp/esp-idf/components/perfmon /Users/shady/esp/esp-idf/components/protobuf-c /Users/shady/esp/esp-idf/components/protocomm /Users/shady/esp/esp-idf/components/pthread /Users/shady/esp/esp-idf/components/sdmmc /Users/shady/esp/esp-idf/components/soc /Users/shady/esp/esp-idf/components/spi_flash /Users/shady/esp/esp-idf/components/spiffs /Users/shady/esp/esp-idf/components/tcp_transport /Users/shady/esp/esp-idf/components/ulp /Users/shady/esp/esp-idf/components/unity /Users/shady/esp/esp-idf/components/usb /Users/shady/esp/esp-idf/components/vfs /Users/shady/esp/esp-idf/components/wear_levelling /Users/shady/esp/esp-idf/components/wifi_provisioning /Users/shady/esp/esp-idf/components/wpa_supplicant /Users/shady/esp/esp-idf/components/xtensa
+-- Configuring done (2.4s)
+-- Generating done (0.2s)
+-- Build files have been written to: /Users/shady/Desktop/esp32-fundamentals/pushbutton/build
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /Users/shady/Desktop/esp32-fundamentals/pushbutton/build/bootloader/esp-idf/esptool_py && /Users/shady/.espressif/python_env/idf5.2_py3.10_env/bin/python /Users/shady/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/shady/Desktop/esp32-fundamentals/pushbutton/build/bootloader/bootloader.bin
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable main.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/shady/Desktop/esp32-fundamentals/pushbutton/build/main.bin
+[9/10] cd /Users/shady/Desktop/esp32-fundamentals/pushbutton/build/esp-idf/esptool_py && /Users/shady/.espressif/python_env/idf5.2_py3.10_env/bin/python /Users/shady/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/shady/Desktop/esp32-fundamentals/pushbutton/build/partition_table/partition-table.bin /Users/shady/Desktop/esp32-fundamentals/pushbutton/build/main.bin
+main.bin binary size 0x2cf50 bytes. Smallest app partition is 0x100000 bytes. 0xd30b0 bytes (82%) free.
+[9/10] cd /Users/shady/esp/esp-idf/components/esptool_py && /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -D IDF_PATH=/Users/shady/esp/esp-idf -D "SERIAL_TOOL=/Users/shady/.espressif/python_env/idf5.2_py3.10_env/bin/python;;/Users/shady/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/shady/Desktop/esp32-fundamentals/pushbutton/build -P /Users/shady/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/cu.usbserial-0001 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 main.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/cu.usbserial-0001
+Connecting......
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: e4:65:b8:1a:f6:14
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x0003cfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26720 bytes to 16363...
+Writing at 0x00001000... (100 %)
+Wrote 26720 bytes (16363 compressed) at 0x00001000 in 0.7 seconds (effective 309.8 kbit/s)...
+Hash of data verified.
+Compressed 184144 bytes to 98036...
+Writing at 0x00010000... (16 %)
+Writing at 0x0001c876... (33 %)
+Writing at 0x000222d2... (50 %)
+Writing at 0x00027deb... (66 %)
+Writing at 0x0002f5bc... (83 %)
+Writing at 0x000368f3... (100 %)
+Wrote 184144 bytes (98036 compressed) at 0x00010000 in 2.9 seconds (effective 515.1 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 219.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

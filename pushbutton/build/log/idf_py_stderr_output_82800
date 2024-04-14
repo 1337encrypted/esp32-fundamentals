@@ -1,0 +1,75 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/cu.usbserial-0001 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c344: memcpy in ROM
+[0m
+[0;33m0x4000c341: memcpy in ROM
+0x400859bf: prvCopyDataToQueue at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:2481
+0x40085f9c: xQueueGenericSendFromISR at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1224
+0x40082c09: Button::buttonPressedISR(void*) at /Users/shady/Desktop/esp32-fundamentals/pushbutton/main/button.hpp:65
+0x400834b1: gpio_isr_loop at /Users/shady/esp/esp-idf/components/driver/gpio/gpio.c:470
+0x40083542: gpio_intr_service at /Users/shady/esp/esp-idf/components/driver/gpio/gpio.c:492
+0x40082f7d: _xt_lowint1 at /Users/shady/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400847a7: xt_utils_wait_for_intr at /Users/shady/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /Users/shady/esp/esp-idf/components/esp_hw_support/cpu.c:132
+0x400d1fff: esp_vApplicationIdleHook at /Users/shady/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+0x400871de: prvIdleTask at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+0x400863ed: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c344: memcpy in ROM
+[0m
+[0;33m0x4000c341: memcpy in ROM
+0x400859bf: prvCopyDataToQueue at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:2481
+0x40085f9c: xQueueGenericSendFromISR at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1224
+0x40082c09: Button::buttonPressedISR(void*) at /Users/shady/Desktop/esp32-fundamentals/pushbutton/main/button.hpp:65
+0x400834b1: gpio_isr_loop at /Users/shady/esp/esp-idf/components/driver/gpio/gpio.c:470
+0x40083542: gpio_intr_service at /Users/shady/esp/esp-idf/components/driver/gpio/gpio.c:492
+0x40082f7d: _xt_lowint1 at /Users/shady/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400847a7: xt_utils_wait_for_intr at /Users/shady/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /Users/shady/esp/esp-idf/components/esp_hw_support/cpu.c:132
+0x400d1fff: esp_vApplicationIdleHook at /Users/shady/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+0x400871de: prvIdleTask at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+0x400863ed: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c344: memcpy in ROM
+[0m
+[0;33m0x4000c341: memcpy in ROM
+0x400859bf: prvCopyDataToQueue at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:2481
+0x40085f9c: xQueueGenericSendFromISR at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1224
+0x40082c09: Button::buttonPressedISR(void*) at /Users/shady/Desktop/esp32-fundamentals/pushbutton/main/button.hpp:65
+0x400834b1: gpio_isr_loop at /Users/shady/esp/esp-idf/components/driver/gpio/gpio.c:470
+0x40083542: gpio_intr_service at /Users/shady/esp/esp-idf/components/driver/gpio/gpio.c:492
+0x40082f7d: _xt_lowint1 at /Users/shady/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400847a7: xt_utils_wait_for_intr at /Users/shady/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /Users/shady/esp/esp-idf/components/esp_hw_support/cpu.c:132
+0x400d1fff: esp_vApplicationIdleHook at /Users/shady/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+0x400871de: prvIdleTask at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+0x400863ed: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000c344: memcpy in ROM
+[0m
+[0;33m0x4000c341: memcpy in ROM
+0x400859bf: prvCopyDataToQueue at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:2481
+0x40085f9c: xQueueGenericSendFromISR at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1224
+0x40082c09: Button::buttonPressedISR(void*) at /Users/shady/Desktop/esp32-fundamentals/pushbutton/main/button.hpp:65
+0x400834b1: gpio_isr_loop at /Users/shady/esp/esp-idf/components/driver/gpio/gpio.c:470
+0x40083542: gpio_intr_service at /Users/shady/esp/esp-idf/components/driver/gpio/gpio.c:492
+0x40082f7d: _xt_lowint1 at /Users/shady/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400847a7: xt_utils_wait_for_intr at /Users/shady/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /Users/shady/esp/esp-idf/components/esp_hw_support/cpu.c:132
+0x400d1fff: esp_vApplicationIdleHook at /Users/shady/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+0x400871de: prvIdleTask at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+0x400863ed: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0m

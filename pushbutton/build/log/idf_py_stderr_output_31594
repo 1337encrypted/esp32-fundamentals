@@ -1,0 +1,21 @@
+CMake Warning (dev) at main/CMakeLists.txt:3:
+  Syntax Warning in cmake code at column 19
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at main/CMakeLists.txt:6:
+  Syntax Warning in cmake code at column 12
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at /Users/shady/esp/esp-idf/tools/cmake/component.cmake:313 (message):
+  Include directory
+  '/Users/shady/Desktop/esp32-fundamentals/pushbutton/main/,' is not a
+  directory.
+Call Stack (most recent call first):
+  /Users/shady/esp/esp-idf/tools/cmake/component.cmake:481 (__component_add_include_dirs)
+  main/CMakeLists.txt:1 (idf_component_register)
+
+

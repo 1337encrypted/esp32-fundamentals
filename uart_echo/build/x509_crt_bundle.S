@@ -1,4 +1,4 @@
-/* * Data converted from /Users/shady/esp/projects/uart_echo/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/shady/Desktop/esp32-fundamentals/uart_echo/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

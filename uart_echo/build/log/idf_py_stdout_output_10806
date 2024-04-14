@@ -1,0 +1,261 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Mar 19 2024 15:40:57[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b078h ( 45176) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001b0a0 vaddr=3ffb0000 size=02254h (  8788) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001d2fc vaddr=40080000 size=02d1ch ( 11548) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=165c0h ( 91584) map[0m
+[0;32mI (165) esp_image: segment 4: paddr=000365e8 vaddr=40082d1c size=0aa44h ( 43588) load[0m
+[0;32mI (189) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (190) boot: Disabling RNG early entropy source...[0m
+[0;32mI (201) cpu_start: Multicore app[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) cpu_start: Application information:[0m
+[0;32mI (213) cpu_start: Project name:     uart_echo[0m
+[0;32mI (218) cpu_start: App version:      6d06eae-dirty[0m
+[0;32mI (223) cpu_start: Compile time:     Mar 19 2024 16:10:08[0m
+[0;32mI (229) cpu_start: ELF file SHA256:  352fd35d4...[0m
+[0;32mI (235) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (240) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (244) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (249) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (254) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (261) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (267) heap_init: At 3FFB2B38 len 0002D4C8 (181 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (280) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 4008D760 len 000128A0 (74 KiB): IRAM[0m
+[0;32mI (294) spi_flash: detected chip: generic[0m
+[0;32mI (297) spi_flash: flash io: dio[0m
+[0;33mW (301) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (315) uart: queue free spaces: 10[0m
+[0;32mI (319) main_task: Started on CPU0[0m
+[0;32mI (329) main_task: Calling app_main()[0m
+[0;32mI (329) UARTBEGIN: Created the UartTask successfully[0m
+[0;32mI (329) main_task: Returned from app_main()[0m
+[0;32mI (1169) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (1179) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (1179) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (1179) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (1189) printIncomingData: Received voltage1: 48.000000[0m
+[0;33mW (2189) receiveData: Received data size does not match struct size[0m
+[0;32mI (2489) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (2489) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (2489) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (2499) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (2509) printIncomingData: Received voltage1: 48.000000[0m
+[0;33mW (3509) receiveData: Received data size does not match struct size[0m
+[0;32mI (3809) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (3809) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (3809) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (3819) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (3829) printIncomingData: Received voltage1: 48.000000[0m
+[0;33mW (4829) receiveData: Received data size does not match struct size[0m
+[0;32mI (5129) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (5129) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (5129) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (5139) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (5149) printIncomingData: Received voltage1: 48.000000[0m
+[0;33mW (6149) receiveData: Received data size does not match struct size[0m
+[0;32mI (6449) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (6449) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (6449) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (6459) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (6469) printIncomingData: Received voltage1: 48.000000[0m
+[0;33mW (7469) receiveData: Received data size does not match struct size[0m
+[0;32mI (7769) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (7769) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (7769) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (7779) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (7789) printIncomingData: Received voltage1: 48.000000[0m
+[0;33mW (8789) receiveData: Received data size does not match struct size[0m
+[0;32mI (9089) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (9089) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (9089) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (9099) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (9109) printIncomingData: Received voltage1: 48.000000[0m
+[0;33mW (10109) receiveData: Received data size does not match struct size[0m
+[0;32mI (10409) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (10409) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (10409) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (10419) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (10429) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (11069) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (11069) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (11069) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (11079) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (11089) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (11729) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (11729) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (11729) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (11739) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (11749) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (12389) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (12389) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (12389) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (12399) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (12409) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (13049) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (13049) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (13049) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (13059) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (13069) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (13709) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (13709) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (13709) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (13719) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (13729) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (14369) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (14369) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (14369) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (14379) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (14389) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (15029) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (15029) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (15029) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (15039) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (15049) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (15689) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (15689) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (15689) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (15699) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (15699) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (16349) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (16349) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (16349) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (16359) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (16359) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (17009) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (17009) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (17009) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (17019) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (17019) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (17669) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (17669) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (17669) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (17679) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (17679) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (18329) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (18329) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (18329) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (18339) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (18339) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (18989) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (18989) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (18989) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (18999) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (18999) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (19649) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (19649) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (19649) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (19659) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (19659) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (20309) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (20309) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (20309) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (20319) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (20319) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (20969) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (20969) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (20969) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (20969) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (20979) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (21629) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (21629) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (21629) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (21629) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (21639) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (22289) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (22289) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (22289) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (22289) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (22299) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (22949) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (22949) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (22949) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (22949) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (22959) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (23609) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (23609) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (23609) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (23609) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (23619) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (24269) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (24269) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (24269) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (24269) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (24279) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (24929) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (24929) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (24929) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (24939) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (24939) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (25589) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (25589) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (25589) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (25599) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (25599) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (26249) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (26249) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (26249) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (26259) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (26259) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (26909) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (26909) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (26909) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (26919) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (26919) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (27569) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (27569) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (27569) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (27579) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (27579) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (28229) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (28229) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (28229) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (28239) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (28249) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (28889) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (28889) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (28889) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (28899) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (28909) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (29549) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (29549) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (29559) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (29559) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (29569) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (30209) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (30209) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (30209) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (30219) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (30229) printIncomingData: Received voltage1: 48.000000[0m
+[0;32mI (30869) printIncomingData: Incoming data Length: 12[0m
+[0;32mI (30869) printIncomingData: Data Structure Length: 12[0m
+[0;32mI (30869) printIncomingData: Received current1: 7.000000[0m
+[0;32mI (30879) printIncomingData: Received current2: 7.000000[0m
+[0;32mI (30889) printIncomingData: Received voltage1: 48.000000[0m

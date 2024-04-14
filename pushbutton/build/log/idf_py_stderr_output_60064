@@ -1,0 +1,27 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/cu.usbserial-0001 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5509: Button::buttonPushedTask(void*) at /Users/shady/Desktop/esp32-fundamentals/pushbutton/main/button.hpp:71 (discriminator 1)
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x400d5506: Button::buttonPushedTask(void*) at /Users/shady/Desktop/esp32-fundamentals/pushbutton/main/button.hpp:71 (discriminator 1)
+0x400863f9: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5509: Button::buttonPushedTask(void*) at /Users/shady/Desktop/esp32-fundamentals/pushbutton/main/button.hpp:71 (discriminator 1)
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x400d5506: Button::buttonPushedTask(void*) at /Users/shady/Desktop/esp32-fundamentals/pushbutton/main/button.hpp:71 (discriminator 1)
+0x400863f9: vPortTaskWrapper at /Users/shady/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0m

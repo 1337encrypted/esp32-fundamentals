@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/shady/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/shady/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/shady/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:195 CONFIG_APP_BUILD_TYPE_ELF_RAM was replaced with CONFIG_APP_BUILD_TYPE_RAM
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:312 CONFIG_COMPILER_OPTIMIZATION_DEFAULT was replaced with CONFIG_COMPILER_OPTIMIZATION_DEBUG
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:614 CONFIG_ESP_SLEEP_DEEP_SLEEP_WAKEUP_DELAY was replaced with CONFIG_ESP_SLEEP_WAIT_FLASH_READY_EXTRA_DELAY
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:810 CONFIG_ESP32_WIFI_ENABLED was replaced with CONFIG_ESP_WIFI_ENABLED
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:811 CONFIG_ESP32_WIFI_STATIC_RX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_STATIC_RX_BUFFER_NUM
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:812 CONFIG_ESP32_WIFI_DYNAMIC_RX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_DYNAMIC_RX_BUFFER_NUM
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:813 CONFIG_ESP32_WIFI_STATIC_TX_BUFFER was replaced with CONFIG_ESP_WIFI_STATIC_TX_BUFFER
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:814 CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER was replaced with CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:815 CONFIG_ESP32_WIFI_TX_BUFFER_TYPE was replaced with CONFIG_ESP_WIFI_TX_BUFFER_TYPE
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:816 CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER_NUM
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:817 CONFIG_ESP32_WIFI_CSI_ENABLED was replaced with CONFIG_ESP_WIFI_CSI_ENABLED
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:818 CONFIG_ESP32_WIFI_AMPDU_TX_ENABLED was replaced with CONFIG_ESP_WIFI_AMPDU_TX_ENABLED
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:819 CONFIG_ESP32_WIFI_TX_BA_WIN was replaced with CONFIG_ESP_WIFI_TX_BA_WIN
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:820 CONFIG_ESP32_WIFI_AMPDU_RX_ENABLED was replaced with CONFIG_ESP_WIFI_AMPDU_RX_ENABLED
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:821 CONFIG_ESP32_WIFI_RX_BA_WIN was replaced with CONFIG_ESP_WIFI_RX_BA_WIN
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:822 CONFIG_ESP32_WIFI_NVS_ENABLED was replaced with CONFIG_ESP_WIFI_NVS_ENABLED
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:823 CONFIG_ESP32_WIFI_TASK_PINNED_TO_CORE_0 was replaced with CONFIG_ESP_WIFI_TASK_PINNED_TO_CORE_0
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:824 CONFIG_ESP32_WIFI_TASK_PINNED_TO_CORE_1 was replaced with CONFIG_ESP_WIFI_TASK_PINNED_TO_CORE_1
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:825 CONFIG_ESP32_WIFI_SOFTAP_BEACON_MAX_LEN was replaced with CONFIG_ESP_WIFI_SOFTAP_BEACON_MAX_LEN
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:826 CONFIG_ESP32_WIFI_MGMT_SBUF_NUM was replaced with CONFIG_ESP_WIFI_MGMT_SBUF_NUM
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:827 CONFIG_ESP32_WIFI_IRAM_OPT was replaced with CONFIG_ESP_WIFI_IRAM_OPT
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:828 CONFIG_ESP32_WIFI_RX_IRAM_OPT was replaced with CONFIG_ESP_WIFI_RX_IRAM_OPT
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:829 CONFIG_ESP32_WIFI_ENABLE_WPA3_SAE was replaced with CONFIG_ESP_WIFI_ENABLE_WPA3_SAE
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:830 CONFIG_ESP32_WIFI_ENABLE_WPA3_OWE_STA was replaced with CONFIG_ESP_WIFI_ENABLE_WPA3_OWE_STA
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:1471 CONFIG_WPA_MBEDTLS_CRYPTO was replaced with CONFIG_ESP_WIFI_MBEDTLS_CRYPTO
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:1472 CONFIG_WPA_MBEDTLS_TLS_CLIENT was replaced with CONFIG_ESP_WIFI_MBEDTLS_TLS_CLIENT
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:1473 CONFIG_WPA_WAPI_PSK was replaced with CONFIG_ESP_WIFI_WAPI_PSK
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:1474 CONFIG_WPA_SUITE_B_192 was replaced with CONFIG_ESP_WIFI_SUITE_B_192
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:1475 CONFIG_WPA_DEBUG_PRINT was replaced with CONFIG_ESP_WIFI_DEBUG_PRINT
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:1476 CONFIG_WPA_TESTING_OPTIONS was replaced with CONFIG_ESP_WIFI_TESTING_OPTIONS
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:1477 CONFIG_WPA_WPS_STRICT was replaced with CONFIG_ESP_WIFI_WPS_STRICT
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:1478 CONFIG_WPA_11KV_SUPPORT was replaced with CONFIG_ESP_WIFI_11KV_SUPPORT
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:1479 CONFIG_WPA_MBO_SUPPORT was replaced with CONFIG_ESP_WIFI_MBO_SUPPORT
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:1480 CONFIG_WPA_DPP_SUPPORT was replaced with CONFIG_ESP_WIFI_DPP_SUPPORT
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:1481 CONFIG_WPA_11R_SUPPORT was replaced with CONFIG_ESP_WIFI_11R_SUPPORT
+/Users/shady/Desktop/esp32-fundamentals/pushbutton/sdkconfig:1482 CONFIG_WPA_WPS_SOFTAP_REGISTRAR was replaced with CONFIG_ESP_WIFI_WPS_SOFTAP_REGISTRAR
+-- Compiler supported targets: xtensa-esp-elf
+-- Found Python3: /Users/shady/.espressif/python_env/idf5.2_py3.10_env/bin/python (found version "3.10.4") found components: Interpreter 
+-- App "main" version: 6d06eae-dirty
+-- Adding linker script /Users/shady/Desktop/esp32-fundamentals/pushbutton/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/shady/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Configuring incomplete, errors occurred!

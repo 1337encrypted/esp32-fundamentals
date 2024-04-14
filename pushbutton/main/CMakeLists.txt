@@ -1,8 +1,6 @@
 idf_component_register(
     SRCS 
-        "main.cpp",
-        "button.hpp"
+       main.cpp
     INCLUDE_DIRS
-        ".",
-        "driver"
+        "."
 )

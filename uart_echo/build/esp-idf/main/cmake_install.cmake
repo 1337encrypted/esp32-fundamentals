@@ -1,4 +1,4 @@
-# Install script for directory: /Users/shady/esp/projects/uart_echo/main
+# Install script for directory: /Users/shady/Desktop/esp32-fundamentals/uart_echo/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

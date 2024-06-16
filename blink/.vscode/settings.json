@@ -12,7 +12,7 @@
         "target/esp32.cfg"
     ],
     "idf.port": "/dev/cu.usbserial-0001",
-    "idf.pythonBinPath": "/Users/shady/.espressif/python_env/idf5.0_py3.10_env/bin/python",
+    "idf.pythonBinPath": "/Users/shady/.espressif/python_env/idf5.2_py3.10_env/bin/python",
     "idf.toolsPath": "/Users/shady/.espressif",
     "idf.flashType": "UART"
 }

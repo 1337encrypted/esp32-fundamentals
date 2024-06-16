@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/shady/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/esptool/__main__.py", line 9, in <module>
+    esptool._main()
+  File "/Users/shady/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/esptool/__init__.py", line 1139, in _main
+    main()
+  File "/Users/shady/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/esptool/__init__.py", line 712, in main
+    esp = esp or get_default_connected_device(
+  File "/Users/shady/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/esptool/__init__.py", line 1023, in get_default_connected_device
+    _esp = chip_class(each_port, initial_baud, trace)
+  File "/Users/shady/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/esptool/loader.py", line 344, in __init__
+    self._set_port_baudrate(baud)
+  File "/Users/shady/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/esptool/loader.py", line 360, in _set_port_baudrate
+    self._port.baudrate = baud
+  File "/Users/shady/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/serial/serialutil.py", line 299, in baudrate
+    self._reconfigure_port()
+  File "/Users/shady/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/serial/serialposix.py", line 517, in _reconfigure_port
+    termios.tcsetattr(
+termios.error: (22, 'Invalid argument')
+CMake Error at run_serial_tool.cmake:66 (message):
+  
+  /Users/shady/.espressif/python_env/idf5.2_py3.10_env/bin/python;;/Users/shady/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32
+  failed.
+
+
+

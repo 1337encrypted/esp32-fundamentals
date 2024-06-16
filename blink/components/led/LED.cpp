@@ -60,7 +60,7 @@ void LED::toggle() {
 
 // Definition of blinkTask
 void LED::blinkTask(void *pvParameters) {
-    LED *instance = static_cast<LED*>(pvParameters)
+    LED *instance = static_cast<LED*>(pvParameters);
     while (1) {
         instance->toggle();
         vTaskDelay(1000 / portTICK_PERIOD_MS);  // Wait for 1000 milliseconds

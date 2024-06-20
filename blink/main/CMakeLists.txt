@@ -3,4 +3,8 @@ idf_component_register(
         "main.cpp"
     INCLUDE_DIRS 
         "."
+    REQUIRES
+        freertos
+        esp_common
+        gpio
 )

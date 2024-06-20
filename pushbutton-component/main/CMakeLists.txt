@@ -1,9 +1,14 @@
+set(SOURCES ./src/main.cpp)
+
 idf_component_register(
     SRCS 
-        "main.cpp"
+       ${SOURCES}
     INCLUDE_DIRS 
-        "."
+        .
+        inc
     REQUIRES 
-        "driver"
-        "button"
+        freertos
+        driver
+        button
+        esp_common
 )

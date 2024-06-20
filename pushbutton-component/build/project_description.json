@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "pushbutton-component",
-    "project_version":    "e5c4d1a-dirty",
+    "project_version":    "09d73b3-dirty",
     "project_path":       "/Users/shady/Desktop/esp32-fundamentals/pushbutton-component",
     "idf_path":           "/Users/shady/esp/esp-idf",
     "build_dir":          "/Users/shady/Desktop/esp32-fundamentals/pushbutton-component/build",
@@ -830,13 +830,13 @@
             "dir": "/Users/shady/Desktop/esp32-fundamentals/pushbutton-component/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
-            "reqs": [ "driver", "button" ],
+            "reqs": [ "freertos", "driver", "button", "esp_common" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/Users/shady/Desktop/esp32-fundamentals/pushbutton-component/build/esp-idf/main/libmain.a",
-            "sources": [ "/Users/shady/Desktop/esp32-fundamentals/pushbutton-component/main/main.cpp" ],
-            "include_dirs": [ "." ]
+            "sources": [ "/Users/shady/Desktop/esp32-fundamentals/pushbutton-component/main/src/main.cpp" ],
+            "include_dirs": [ ".", "inc" ]
         },
         "mbedtls": {
             "alias": "idf::mbedtls",
@@ -2142,11 +2142,11 @@
             "prefix": "idf",
             "dir": "/Users/shady/Desktop/esp32-fundamentals/pushbutton-component/main",
             "lib": "__idf_main",
-            "reqs": [ "driver", "button" ],
+            "reqs": [ "freertos", "driver", "button", "esp_common" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "." ]
+            "include_dirs": [ ".", "inc" ]
         },
         "button": {
             "alias": "idf::button",

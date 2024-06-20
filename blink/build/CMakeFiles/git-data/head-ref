@@ -1,10 +1,1 @@
-0000000000000000000000000000000000000000 f5b08e1571e39d6bc0c9e6b8b051ac1b3f1bd527 1337encrypted <smallaszero@gmail.com> 1705902846 +0530	clone: from github.com:1337encrypted/esp32-fundamentals.git
-f5b08e1571e39d6bc0c9e6b8b051ac1b3f1bd527 a43eb0b4e0fc49cbe02dc308e7c90d916168e3a4 1337encrypted <smallaszero@gmail.com> 1705919001 +0530	commit: Added logging files
-a43eb0b4e0fc49cbe02dc308e7c90d916168e3a4 6e72cd41c88512aaf448d3f9093fbdebb0a1b494 1337encrypted <smallaszero@gmail.com> 1705935051 +0530	commit: Added taskScheduling
-6e72cd41c88512aaf448d3f9093fbdebb0a1b494 946b4da6a4743be9fe8109233dbef7a7e6185b3e 1337encrypted <smallaszero@gmail.com> 1706363591 +0530	commit: Added task Scheduling for freeRTOS
-946b4da6a4743be9fe8109233dbef7a7e6185b3e 78d41c6d025c4efc96c37e8a089706af21e340a2 1337encrypted <smallaszero@gmail.com> 1706424545 +0530	commit: converted logging into an idf project
-78d41c6d025c4efc96c37e8a089706af21e340a2 cc4ed4ed8d94b25a54343ea5d44ae197adf1e404 1337encrypted <smallaszero@gmail.com> 1707759171 +0530	commit: Learnt to impliment components in the esp-idf
-cc4ed4ed8d94b25a54343ea5d44ae197adf1e404 5c2f149d3e502d1a430e0d9f0ac127cfe3bd027d 1337encrypted <smallaszero@gmail.com> 1709285850 +0530	commit: Added freeRTOS files
-5c2f149d3e502d1a430e0d9f0ac127cfe3bd027d f539ca772880fb333979c56e5bdd00bb5f0c8d1a 1337encrypted <smallaszero@gmail.com> 1710840808 +0530	pull: Fast-forward
-f539ca772880fb333979c56e5bdd00bb5f0c8d1a 6d06eae2c58ae5d75ae5f1e69dec11b96c761c19 1337encrypted <smallaszero@gmail.com> 1710840836 +0530	commit: added uart
-6d06eae2c58ae5d75ae5f1e69dec11b96c761c19 e5c4d1afd7185c1d318aa71d37898f57529f3644 1337encrypted <smallaszero@gmail.com> 1713105986 +0530	commit: Added pushbutton class
+a322e6bdad4b6675d4597fb2722eea2851ba88cb

@@ -1,27 +1,14 @@
-#include <stdio.h>
+#include "main.hpp"
 
-#include "driver/gpio.h"
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include "freertos/semphr.h"
-#include "esp_log.h"
+esp_err_t Main::setup(void) {
+  blueLed.init();
+}
 
-#include "LED.h"
-
-#if CONFIG_FREERTOS_UNICORE
-  static const BaseType_t app_cpu = 0;
-#else
-  static const BaseType_t app_cpu = 1;
-#endif
-
-constexpr gpio_num_t ledPin = GPIO_NUM_2;
-
-LED blueLed(ledPin);
-
-extern "C"
-{
-  void app_main(void)
-  {
-    blueLed.begin(app_cpu);
-  }
+void Main::loop {
+  ESP_LOGI(LOG_TAG, "blueLed is on");
+  blueLed.set(true);
+  vTaskDelay(pdSecond);
+  ESP_LOGI(LOG_TAG, "blueLed is off");
+  blueLed.set(false);
+  vTaskDelay(pdSecond);
 }

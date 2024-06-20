@@ -1,8 +1,8 @@
 idf_component_register(
     SRCS 
-        "LED.cpp"
+        gpio.cpp
     INCLUDE_DIRS 
-        "."
+        .
     REQUIRES
-        "driver"
+        driver
 )

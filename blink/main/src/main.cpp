@@ -1,7 +1,19 @@
 #include "main.hpp"
 
+static Main myMain;
+
+extern "C" void app_main(void) {
+  ESP_ERROR_CHECK(myMain.setup());
+
+  while(true) {
+    myMain.loop();
+  }
+}
+
 esp_err_t Main::setup(void) {
-  blueLed.init();
+  esp_err_t status = ESP_OK;
+  status = blueLed.init();
+  return status;
 }
 
 void Main::loop {

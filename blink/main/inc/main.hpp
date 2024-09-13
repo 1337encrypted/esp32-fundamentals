@@ -11,15 +11,10 @@
 // #endif
 
 
-class Main {
+class Main final {
     public:
-    esp_err_t setup();
+    esp_err_t setup(void);
     void loop(void);
 
     gpio::gpioOutput blueLed(ledPin, true)
-}
-
-extern "C" void app_main(void)
-{
-  
-}
+};

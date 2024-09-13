@@ -1,8 +1,12 @@
+set(SOURCES ./src/main.cpp)
+
 idf_component_register(
     SRCS 
-        "main.cpp"
+        ${SOURCES}
     INCLUDE_DIRS 
-        "."
+        .
+        inc
+        src
     REQUIRES
         freertos
         esp_common

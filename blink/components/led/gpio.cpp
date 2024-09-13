@@ -23,10 +23,9 @@ namespace NamespaceGpio
         .pull_up_en     = GPIO_PULLUP_DISABLE,
         .pull_down_en   = GPIO_PULLDOWN_ENABLE,
         .intr_type      = GPIO_INTR_DISABLE
-    },
-    pin,
-    invertedLogic) {}
-    }
+    }), 
+    pin(pin),
+    invertedLogic(invertedLogic) {}
 
     [[nodiscard]] esp_err_t gpioOutput::init(void) {
         esp_err_t status = gpio::init();

@@ -1,15 +1,15 @@
 #!/bin/bash
 
 BASH_ALIASES="$HOME/.bash_aliases"
-EXPORT_SH="$HOME/esp/esp-idf-latest/export.sh"
+EXPORT_SH="$HOME/esp/esp-idf/export.sh"
 ESP_DIR="$HOME/esp"
 
-#if [ "$#" -ne 1 ]; then
-#  echo "Usage: $0 <version>"
-#  exit 1
-#fi
+if [ "$#" -ne 1 ]; then
+  echo "Usage: $0 <version>"
+  exit 1
+fi
 
-#version=$1
+version=$1
 
 check_line_in_file(){
   grep -q "$1" "$2"
@@ -45,11 +45,11 @@ install_packages
 # Create directory and clone the repository
 mkdir -p "$ESP_DIR"
 cd "$ESP_DIR"
-#git clone -b "$version" --recursive https://github.com/espressif/esp-idf.git
-git clone --recursive https://github.com/espressif/esp-idf.git esp-idf-latest
+git clone -b "$version" --recursive https://github.com/espressif/esp-idf.git esp-idf
+#git clone --recursive https://github.com/espressif/esp-idf.git esp-idf
 
 # Navigate to the esp-idf directory and run installation script
-cd ./esp-idf-latest
+cd ./esp-idf
 ./install.sh esp32
 
 # Check if .bash_aliases exists

@@ -24,7 +24,7 @@ install_packages(){
   if command -v apt-get &> /dev/null; then
     # For Ubuntu/Debian-based distros
     sudo apt-get update
-    sudo apt-get install git wget flex bison gperf python3 python3-venv cmake ninja-build ccache libffi-dev libssl-dev dfu-util libusb-1.0-0
+    sudo apt-get install git wget flex bison gperf python3 python3-venv cmake ninja-build ccache libffi-dev libssl-dev dfu-util libusb-1.0-0 -y
   elif command -v pacman &> /dev/null; then
     # For Arch Linux
     sudo pacman -Syu --noconfirm

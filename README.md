@@ -2,5 +2,5 @@
 
 - **Download the script file**
 ```
-curl -O https://raw.githubusercontent.com/1337encrypted/esp32-fundamentals/refs/heads/main/linux-install.sh && chmod +x linux-install.sh && ./linux-install.sh v5.3.1
+curl -O https://raw.githubusercontent.com/1337encrypted/esp32-fundamentals/refs/heads/main/idf-install.sh && chmod +x idf-install.sh && ./idf-install.sh v5.3.1
 ```
